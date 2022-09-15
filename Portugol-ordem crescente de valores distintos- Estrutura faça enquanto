@@ -9,13 +9,14 @@ programa
             faca{
 		escreva(" \n Digite 3 valores inteiros diferentes : \n ")
 		leia(n1,n2,n3)
-
+              // o programa irá repetir a perguntas até o usuário digitar números distintos
 		    enquanto(n1==n2 e n2==n3 e n3==n1 ){
 		    	limpa()
 		    	    escreva(" Números iguais !")
 		    	   escreva("\n Digite 3 valores inteiros diferentes: \n")
 	            leia(n1, n2, n3)
 		    }
+		    //condições 
           se(n1>n2  e n1>n3 e n2<n3){
 		escreva(n2 , ',', n3 , ',' , n1)
 		}
@@ -35,10 +36,11 @@ programa
 		se(n1>n2 e n3>n1 e n3>n2 ){
 			escreva(n2 , "," , n1 , " , " , n3)
 		}
+		//caso ele queira usar o programa novamente.
 	       escreva("\n Deseja fazer novamente ? s/n \n")
          	 leia(resposta)
          	  	limpa()
-          
+          //o programa será executado até o usuário responder: n(não)
           }enquanto(resposta=='s')
           
           	escreva(" \n Espero ter lhe ajudado !")
