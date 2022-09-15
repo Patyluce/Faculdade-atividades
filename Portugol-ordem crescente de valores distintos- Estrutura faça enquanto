@@ -1,5 +1,5 @@
 programa
-{
+{//mostra em ordem crescente os valores.Apenas valores distintos.
 	
 	funcao inicio()
 	{
