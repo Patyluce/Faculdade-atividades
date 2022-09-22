@@ -1,0 +1,20 @@
+
+
+a{
+    color:white;
+}
+div{
+    font-size:  150%;
+    color:white;
+    background-color: black;
+    display: flex;
+    padding: 2%;
+    border-radius: 15%;
+    width: 38%;
+}
+body{
+    background-image: linear-gradient(to right, rgb(163, 155, 155) , rgb(2, 2, 2));
+}
+h3,li{
+    color: rgb(7, 7, 7);
+}
