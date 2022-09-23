@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em Html5</title>
+</head>
+<body>
+    <div> <img id="headphone" src="midia/headphone.png" width="50%" alt=""> </div>
+    <p id="p1"> Vamos aprender a reproduzir áudios em HTML5.<p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Coldplay - Fix You (Tradução) (128 kbps).mp3" type="audio/mpeg">
+        <h3> Coldplay- Fix You</h3>
+        
+        <img  id="coldplay" src="midia/coldplay.jfif" alt="">
+        <style>
+             *{
+                margin: 0;
+                padding: 0;
+               
+             }
+            div{
+                height: 400px;
+               background: rgb(141, 141, 192);
+            }
+            #headphone{
+                display: flex;
+                margin-top: -5%;
+                margin-left: 50%; 
+            }
+            p{
+                margin-top: 5%;
+            }
+            #coldplay{
+                border-radius: 10%;
+                width: 20%;
+                margin-left: 50%;
+                margin-top: -15%;
+            }
+            h3{
+                margin-left: 5%;
+                color: blueviolet;
+            }
+        </style>
+</body>
+</html>
