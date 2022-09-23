@@ -7,22 +7,30 @@
     <title>Mídias em Html5</title>
 </head>
 <body>
-    <div> <img id="headphone" src="midia/headphone.png" width="50%" alt=""> </div>
+    <nav> <img id="headphone" src="midia/headphone.png" width="50%" alt=""> </nav>
+    
     <p id="p1"> Vamos aprender a reproduzir áudios em HTML5.<p>
+        <div id="audio">
     <audio preload="metadata" autoplay controls loop>
-        <source src="midia/Coldplay - Fix You (Tradução) (128 kbps).mp3" type="audio/mpeg">
+        <source  src="midia/Coldplay - Fix You (Tradução) (128 kbps).mp3"  type="audio/mpeg">
+</div>
+
         <h3> Coldplay- Fix You</h3>
         
         <img  id="coldplay" src="midia/coldplay.jfif" alt="">
         <style>
              *{
                 margin: 0;
-                padding: 0;
+                padding: 0 ;
                
              }
-            div{
+ 
+            nav{
+                width: 100%;
                 height: 400px;
                background: rgb(141, 141, 192);
+               
+               
             }
             #headphone{
                 display: flex;
@@ -41,6 +49,57 @@
             h3{
                 margin-left: 5%;
                 color: blueviolet;
+            }
+            @media screen and (max-width: 768px) {
+                div{
+                   width: 100%;
+                }
+               
+                #coldplay{
+                   margin-top: 50%;
+                   width: 70%;
+                   margin-left: 15%;
+                }
+                #p1,audio,h3{
+                    font-size: larger;
+                    text-align: center;
+                 }
+                 #div{
+                    margin-left: -20%;
+                 }
+                 #headphone{
+                    width: 80%;
+                 }
+                 
+            }
+            @media screen and (min-width: 1501px) {
+                 nav{
+                    width: 100%;
+                    height: 500px;
+                 }
+                 #headphone{
+                    margin-top: -2%;
+                 }
+                 #p1,audio,h3{
+                    font-size: larger;
+                    margin-left: 10%;
+                 }
+                 #coldplay{
+                    width: 35%;
+                 }
+            }
+            @media screen and (min-width: 1901px) {
+                #coldplay{
+                    margin-top: -10%;
+                }
+                #headphone{
+                   width: 35%;
+                   margin-left: 65%;
+                }
+                #p1,audio,h3{
+                    font-size: 200%;
+                    margin-left: 10%;
+                 }
             }
         </style>
 </body>
