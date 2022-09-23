@@ -1,0 +1,22 @@
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+div{
+    font-size:  150%;
+    color: black;
+    
+    text-decoration: overline  whitesmoke;
+   
+    display: flex;
+    padding: 2%;
+    border-radius: 15%;
+    width: 38%;
+}
+body{
+    background-image: linear-gradient(to right, lightblue ,rgb(39, 39, 209));
+}
+h3,li{
+    color: rgb(7, 7, 7);
+}

@@ -1,0 +1,57 @@
+.esportes{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: aliceblue;
+   border-radius: 10%;
+   align-items: center;
+   width: 20%;
+
+   }
+   #p1{
+     left: -12%;
+     margin-top: 50%;
+   }
+   #titulo1{
+    display: flex;
+    margin-left: 30%;
+   }
+   .saude{
+    display: flex;
+    margin-left: 40%;
+    margin-top: -13.5%;
+    background-color: aliceblue;
+    border-radius: 10%;
+    align-items: center;
+   width: 20%
+   }
+   #p2{
+    left: -10%;
+    margin-top: 50%;
+  }
+  #titulo2{
+    display: flex;
+    margin-left: 30%;
+   }
+   .politica{
+    display: flex;
+    margin-left: 70%;
+    margin-top: -13.5%;
+    background-color: aliceblue;
+    border-radius: 10%;
+    align-items: center;
+   width: 20%;
+   }
+   #p3{
+    left: -30%;
+    margin-top: 55%;
+  }
+  #titulo3{
+    display: flex;
+    margin-left: 30%;
+    
+   }
+  div{
+    text-decoration: white;
+    color: black;
+  }
