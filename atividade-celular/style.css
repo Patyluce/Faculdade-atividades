@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+#texto{
+    text-align: left;
+    padding: 15%;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+#iphone{
+    margin-left: 35%;
+}
+#azul{
+    margin-left: 38%;
+}
+img{
+  display: flex;
+  margin-top: -25%;
+  margin-left: 60%;
+}
+#button1{
+    margin-top: -10%;
+    margin-left: 20%;
+    border: none;
+}
+#button2{
+    margin-top: -3%;
+    margin-left: 35%;
+}
+#btn1{
+     color: white;
+    font-size: larger;
+    padding: 10px 12px;
+    background-color: rgb(39, 4, 236);
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+#btn2{
+    color: blue;
+    font-size: larger;
+    padding: 10px 12px;
+    background-color: transparent;
+    border: blue solid 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+h4{
+    margin-left:-15% ;
+}
+#btn2:hover{
+    color: #fff;
+    background-color: blue ;
+
+}
