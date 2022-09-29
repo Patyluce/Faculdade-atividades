@@ -21,12 +21,12 @@ img{
   margin-left: 60%;
 }
 #button1{
-    margin-top: -10%;
+    margin-top: -8%;
     margin-left: 20%;
     border: none;
 }
 #button2{
-    margin-top: -3%;
+    margin-top: -2%;
     margin-left: 35%;
 }
 #btn1{
@@ -52,4 +52,30 @@ h4{
     color: #fff;
     background-color: blue ;
 
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    #button1 {
+       padding: 30%;
+       justify-content: center;
+       margin-left: -10%;
+    }
+    #button2{
+        margin-top: -37%;
+        margin-left: 60%;
+}
+img{
+    margin-top: 10%;
+    width: 50%;
+}
+#texto{
+    text-align: justify;
+    margin-top: -10%;
+    padding-top: 20%;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
 }
