@@ -1,0 +1,44 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#titulo{
+    display:  grid;
+     justify-content: center;
+    margin-top: -30%;
+
+}
+#listas{
+    padding-top: 5%;
+    margin-left: 55%;
+}
+img{
+    padding-top: 15%;
+    margin-left: 30%;
+}
+#botoes{
+    display: grid;
+    padding-top: 10%;
+    margin-left: 32%;
+    width: 10%;
+   
+}
+#botao1{
+    font-size: large;
+    margin-left: -15%;
+    width: 125%;
+    height: 145%;
+    background-color: darkmagenta;
+    border: none;
+    color: white;
+    
+}
+#botao2{ 
+    font-size: large;
+    margin: 10%;
+    width: 145%;
+    height: 100%;
+    margin-left: -20%;
+    background-color:transparent;
+    color: black;
+    border: 1px solid  darkmagenta;
+}
