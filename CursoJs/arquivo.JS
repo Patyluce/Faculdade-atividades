@@ -2,7 +2,7 @@
 
 const btCalcular = document.getElementById("btCalcular")
 
-    function somaRetorno (){
+    function  calculo(){
 
         const valor1 = Number(document.getElementById("valor1").value)
         const valor2 = Number(document.getElementById("valor2").value )
@@ -14,5 +14,5 @@ const btCalcular = document.getElementById("btCalcular")
     }
 
 
-    btCalcular.onclick= somaRetorno
+    btCalcular.onclick= calculo
 
