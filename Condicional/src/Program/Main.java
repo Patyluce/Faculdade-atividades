@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        double calculo;
+        double calculo , desconto , resultado;
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nome do produto: ");
+        System.out.print("Nome do produto: ");
         String name = sc.next();
         System.out.println("Valor unitário: ");
         double price = sc.nextDouble();
@@ -17,22 +17,26 @@ public class Main {
 
         System.out.println();
         System.out.println("Produto: " + name);
-        System.out.printf("Total a pagar: %.2f" , quantity * price);
+        System.out.printf("Total a pagar: %.2f" , calculo = (quantity * price));
+
+
 
         if (quantity <= 5) {
-            calculo = (quantity * price) - 0.02;
-            System.out.printf("\nCom desconto : %.2f" , calculo);
-        } else if (quantity >5 && quantity <=10){
-           calculo = (quantity * price)  - 0.03;
-            System.out.printf("\nCom desconto : %.2f" , calculo);
+
+            desconto = calculo * 0.02;
+            resultado = calculo - desconto;
+            System.out.printf("\nCom desconto : %.2f", resultado);
+        }
+         else if (quantity >5 && quantity <=10){
+            desconto = calculo * 0.03;
+            resultado = calculo - desconto;
+            System.out.printf("\nCom desconto : %.2f" ,resultado);
         }
     else {
-            calculo = (quantity * price)  - 0.05;
-            System.out.printf("\nCom desconto : %.2f" , calculo);
+            desconto = calculo * 0.05;
+            resultado = calculo - desconto;
+            System.out.printf("\nCom desconto : %.2f" ,resultado);
         }
-
-
-
         sc.close();
 
 
